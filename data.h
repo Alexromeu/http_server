@@ -4,7 +4,7 @@
 extern char* http_resp;
 
 struct __attribute__((packed)) data_payload{
-    int len; //length of data_payload instance
+    int len; 
     int id;
     char username[32];
     char password[32];
